@@ -54,3 +54,7 @@
 >    3. If f(n) = Ω(nlogb a+ϵ), then T(n) = Θ(f(n)).
 >
 >ϵ > 0 is a constant.
+
+## Comparison of Various time complexity.
+
+>O(c)<O(loglogn)<O(logn<O)<(n^1/2)<O(n)<O(nlogn)<O(n^2)<O(n^3)<O(n^k)<O(2^n)<O(n^n)<O(2^(2^n))
