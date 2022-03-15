@@ -130,5 +130,5 @@ so on.
 | Time complexity |         | When                  |
 |-----------------|---------|-----------------------|
 | Best | O(n)  | If the array is already sorted     |
-| Worst| O(n*2)| If the array is in descending order|
-| Avg  | O(n*2)| It occurs when the elements of the array are in jumbled order (neither ascending nor descending).|
+| Worst| O(n<sup>2</sup>)| If the array is in descending order|
+| Avg  | O(n<sup>2</sup>)| It occurs when the elements of the array are in jumbled order (neither ascending nor descending).|
