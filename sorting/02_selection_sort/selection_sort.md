@@ -5,6 +5,8 @@ Selection sort is a sorting algorithm that selects the smallest element from an 
 ## Code
 ---
 ## Python
+
+[Selection Sort](./selection_sort.py)
 ```python
 def selection_sort(ls: list):
     for i in range(len(ls)):
@@ -20,6 +22,8 @@ print(selection_sort(ls))
 ```
 
 ## C
+
+[Selection Sort](./selection_sort.c)
 ```c
 #include<stdio.h>
 void swap(int *a, int *b){
