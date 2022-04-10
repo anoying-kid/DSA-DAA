@@ -156,7 +156,7 @@ a= 1
 ```
 The given recurrence is of the form:
 
-T(n)=aT(n-b)+f(n), n>1 for some constants c,a>0,b>0,k>=0 and function f(n) and could be solved using Subtract and Conquer Recurrence method.
+T(n)=aT(n-b)+f(n), n>1 for some constants c,a>0,b>0,k>=0 and function f(n)=O(n<sup>k</sup>) and could be solved using Subtract and Conquer Recurrence method.
 
 If f(n) is of the form n^k then,
 

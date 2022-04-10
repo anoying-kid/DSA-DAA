@@ -11,3 +11,5 @@
         > analysis after execution.
         > it gives exact value.
         > it is machine dependent.
+
+NEXT >> [01_asymtotic_notation](../01_asymtotic_notation/O_Omega_Theta.md)

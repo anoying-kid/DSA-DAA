@@ -1,3 +1,5 @@
+[<< What-is-algorithm](../00_what-is-algorithm/what-is-algorithm.md) | [Master-Theorm >>](../02_recursion/01_Master-Theorm.md)
+
 # Asymtotic Notations
 
 * The efficiency of an algorithm depends on amount of time, storage and other resources required to execute the algorithm.
@@ -58,3 +60,5 @@
 ## Comparison of Various time complexity.
 
 >O(c)<O(loglogn)<O(logn<O)<(n^1/2)<O(n)<O(nlogn)<O(n^2)<O(n^3)<O(n^k)<O(2^n)<O(n^n)<O(2^(2^n))
+
+[<< What-is-algorithm](../00_what-is-algorithm/what-is-algorithm.md) | [Asymtotic-Notation >>](../01_asymtotic_notation/O_Omega_Theta.md)
