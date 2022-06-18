@@ -5,19 +5,19 @@ int comp=0, sw=0;
 
 int partition(int arr[], int l, int h){
     int pi = arr[h];
-    int i = l-1;
+    int i = l;
 
-    for(int j=l; j<h; j++){
+    for(int j=l; j<=h-1; j++){
         comp++;
-        if (arr[j]<pi){
-            i++;
+        if (arr[j]<=pi){
             swap(arr[i], arr[j]);
+            i++;
             sw++;
         }
     }
-    swap(arr[i+1],arr[h]);
+    swap(arr[i],arr[h]);
     sw++;
-    return (i+1);
+    return (i);
 }
 void quickSort(int arr[], int l, int h){
     if(l<h){
